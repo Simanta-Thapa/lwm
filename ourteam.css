@@ -119,6 +119,58 @@ margin: 0 auto;
 
 
 
+footer{
+    margin-top:100px;
+    background: #541975;
+
+}
+
+#container5{
+    width: 80%;
+    margin:0 auto;
+    padding-top:50px;
+  
+}
+    
+
+#upper-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    margin-bottom: 100px;
+}
+
+#upper-section-right p:first-child{
+    margin-left:135px;
+    margin-bottom: 20px;
+}
+
+
+#last{
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    align-items: center;
+    color: white;
+}
+#last nav a{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:0.5rem;
+    
+}
+
+#last nav a:hover{
+    color:#b9776e;
+}
+#last p{
+    margin-top:40px;
+}
+
+
+
 /* mobile media query */
 
 
