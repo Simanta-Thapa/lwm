@@ -40,8 +40,8 @@ margin: 0 auto;
 
 .block{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
   
 }
 .common{
@@ -86,7 +86,7 @@ margin: 0 auto;
 
 #left-side-text{
     background: #b9975c;
-    height:500px;
+    height:100%;
     padding:50px;
     padding-top:100px;
     text-align: center;
@@ -100,15 +100,17 @@ margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 5px;
     width: 450px;
-    font-size:30px;
+    font-size:2rem;
 }
 
 #left-side-text h1{
-    margin-bottom: 50px;
+    margin-top:2rem;
+    margin-bottom: 4rem;
+    font-size:2rem;
 }
 #right-side-img img{
     width: 500px;
-    height:500px;
+    height:100%;
 }
 
 .btn{
@@ -174,7 +176,64 @@ footer{
 /* mobile media query */
 
 
-@media (max-width:900px){
+@media(max-width:750px){
+
+    .navbar-brand img{
+       
+        width: 13rem;
+    }
+
+
+
+    .block{
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+       
+      
+    }
+
+    .common img{
+        width: 100%;
+    }
+
+    #ins-container2{
+        flex-direction: column;
+    }
+
+    #left-side-text p{
+        width: 100%;
+
+    }
+    #right-side-img img{
+        width: 100%;
+    }
+
+
+    /* footer section  */
+    #upper-section{
+        display: flex;
+      flex-direction: column;
+        gap:3rem;
+        margin-bottom: 3rem;
+    }
+
+    #upper-section-right p:first-child{
+        margin-left:0rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:751px) and (max-width:900px){
+
+    
+.block{
+   
+    flex-wrap: wrap;
+   
+  
+}
     /* section one */
 
    #container1 h1{
@@ -206,5 +265,61 @@ footer{
   }
 
 
+
+}
+
+
+@media (min-width:901px) and (max-width:1200px){
+
+    .navbar .container{
+        gap:3rem;
+    }
+    
+    .navbar-brand img{
+       
+        width: 13rem;
+    }
+
+.block{
+    display:grid;
+ grid-template-columns: repeat(2,350px);
+ justify-content: center;
+   gap:1rem;
+}
+
+.common{
+    width: 100%;
+}
+.common img{
+    width: 100%;
+}
+
+    #ins-container2{
+       display: grid;
+       grid-template-columns: 700px;
+       justify-content: center;
+    }
+
+    #left-side-text p{
+        width: 100%;
+    }
+    #right-side-img img{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:1201px){
+
+    .navbar .container{
+        gap:7rem;
+    }
+
+    .block{
+      display: grid;
+      grid-template-columns: repeat(2,max-content);
+      
+       gap:2rem;
+    }
 
 }
