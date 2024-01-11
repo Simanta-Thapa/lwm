@@ -18,9 +18,15 @@ header{
     padding:1rem 2rem;
 }
 
-.nav-item{
-    margin-right:1rem;
-}
+ /* .navbar .container{
+   gap:5rem;
+   } */
+
+/* .nav-item{
+    /* margin-right:1rem; */
+
+
+
 
 .nav-link{
     color:white;
@@ -258,7 +264,11 @@ footer{
     margin-top:40px;
 }
 
-
+@media (max-width:462px){
+    .navbar-brand img{
+        width: 10rem;
+    }
+}
 @media (max-width:800px){
     #ins-container2{
         flex-direction: column-reverse;
@@ -363,6 +373,12 @@ footer{
 
 @media (min-width:801px) and (max-width:1000px){
 
+
+   /* .navbar .container{
+    gap:7rem;
+   } */
+
+   
    /* section one upper most and header below */
 
    #container2{
@@ -403,5 +419,15 @@ footer{
   /* footer */
     footer{
         width: 100%;
+    }
+}
+
+@media(min-width:922px) and (max-width:1199px){
+    .navbar .container{
+        gap:0rem;
+    }
+
+    .navbar-brand img{
+        width: 10rem;
     }
 }

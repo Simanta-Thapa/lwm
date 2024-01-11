@@ -182,6 +182,9 @@ footer {
   #first {
     margin-top: 20rem;
   }
+  .FirstLeftSide {
+    text-align: center;
+  }
   .SecondCol {
     margin-top: 1rem;
   }
@@ -242,6 +245,9 @@ footer {
   #first {
     margin-top: 20rem;
   }
+  .FirstLeftSide {
+    text-align: center;
+  }
   .SecondCol {
     margin-top: 1rem;
   }
@@ -258,16 +264,16 @@ footer {
     text-align: center;
   }
 }
-@media (min-width: 751px) and (max-width: 1024px) {
+@media (min-width: 751px) and (max-width: 1200px) {
   .navbar-brand img {
-    width: 100%;
+    width: 10rem;
+  }
+  .navbar-brand .container {
+    justify-content: space-between;
   }
   .navbar {
     background-color: white;
     padding: 1rem 1rem;
-  }
-  .navbar .container {
-    gap: 0rem;
   }
   .nav-link {
     font-size: 1rem;
@@ -292,5 +298,8 @@ footer {
   }
   #first {
     margin-top: 20rem;
+  }
+  .FirstLeftSide {
+    text-align: center;
   }
 }/*# sourceMappingURL=contact.css.map */

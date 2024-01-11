@@ -125,15 +125,15 @@ input[type=email]{
 
 }
 
-textarea{
-    // background-color: rgba(46,59,66,.05);
-    // border: 2px solid transparent;
+// textarea{
+//     // background-color: rgba(46,59,66,.05);
+//     // border: 2px solid transparent;
  
-    // height: 100px;
-    // color: black;
-    // outline:none;
-    // padding:0rem 1rem;
-}
+//     // height: 100px;
+//     // color: black;
+//     // outline:none;
+//     // padding:0rem 1rem;
+// }
 
 // footer section 
 footer{
@@ -190,6 +190,7 @@ footer{
 
 @media(max-width:495px){
 
+
     
     .navbar-brand{
         img{
@@ -240,6 +241,10 @@ footer{
     
 #first{
     margin-top:20rem;
+  }
+
+  .FirstLeftSide{
+    text-align: center;
   }
 
   .SecondCol{
@@ -326,6 +331,9 @@ input[type=email]{
 #first{
     margin-top:20rem;
   }
+  .FirstLeftSide{
+    text-align: center;
+  }
 
   .SecondCol{
     margin-top:1rem;
@@ -346,14 +354,18 @@ input[type=email]{
     }
 }
 
-@media(min-width:751px) and (max-width:1024px){
+@media(min-width:751px) and (max-width:1200px){
 
     // navbar 
   
 
     .navbar-brand{
       img{
-        width: 100%;
+        width: 10rem;
+      }
+
+      .container{
+        justify-content: space-between;
       }
     }
 
@@ -362,9 +374,7 @@ input[type=email]{
     
         padding:1rem 1rem;
     
-        .container{
-            gap:0rem
-        }
+      
     }
 
     .nav-link{
@@ -396,5 +406,9 @@ input[type=email]{
 
     #first{
         margin-top:20rem;
+      }
+
+      .FirstLeftSide{
+        text-align: center;
       }
 }
