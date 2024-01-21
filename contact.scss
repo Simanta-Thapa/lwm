@@ -93,6 +93,38 @@ form{
     img{
         width: 20rem;
     }
+
+  p,a{
+    margin-left:1rem;
+  }
+
+  p:first-of-type{
+    font-weight: bold;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+  }
+  p:nth-of-type(2){
+    width: 40%;
+margin: 1rem 2rem;
+  font-weight: bold;
+  font-size:1.5rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:first-of-type{
+    font-size:1.5rem;
+  }
+
+  a:last-of-type{
+    color:brown;
+    font-size:2rem;
+  }
+  a:last-of-type:hover{
+   color:#dfcfb5;
+  }
 }
 
 
@@ -123,6 +155,16 @@ input[type=email]{
     outline:none;
     padding:0rem 1rem;
 
+}
+
+.textarea{
+    background-color: rgba(46,59,66,.05);
+    border: 2px solid transparent;
+ 
+    height: 10rem;
+    color: black;
+    outline:none;
+    padding:0rem 1rem;
 }
 
 // textarea{

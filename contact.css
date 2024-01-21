@@ -75,6 +75,33 @@ form {
 .FirstLeftSide img {
   width: 20rem;
 }
+.FirstLeftSide p, .FirstLeftSide a {
+  margin-left: 1rem;
+}
+.FirstLeftSide p:first-of-type {
+  font-weight: bold;
+  margin-left: 3rem;
+  font-size: 1.1rem;
+}
+.FirstLeftSide p:nth-of-type(2) {
+  width: 40%;
+  margin: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.FirstLeftSide a {
+  text-decoration: none;
+}
+.FirstLeftSide a:first-of-type {
+  font-size: 1.5rem;
+}
+.FirstLeftSide a:last-of-type {
+  color: brown;
+  font-size: 2rem;
+}
+.FirstLeftSide a:last-of-type:hover {
+  color: #dfcfb5;
+}
 
 .firstrow {
   display: flex;
@@ -95,6 +122,15 @@ input[type=email] {
   background-color: rgba(46, 59, 66, 0.05);
   border: 2px solid transparent;
   height: 3rem;
+  color: black;
+  outline: none;
+  padding: 0rem 1rem;
+}
+
+.textarea {
+  background-color: rgba(46, 59, 66, 0.05);
+  border: 2px solid transparent;
+  height: 10rem;
   color: black;
   outline: none;
   padding: 0rem 1rem;
